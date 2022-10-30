@@ -45,6 +45,10 @@ function c() {
     let element = document.querySelector(".input");
     element.textContent = "";
 }
+function slice(){
+    let element = document.querySelector(".input")
+    element.textContent = element.textContent.slice(0, element.textContent.length - 1)
+}
 function summ() {
     sign = "+";
     let element = document.querySelector(".input");
