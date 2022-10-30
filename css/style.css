@@ -1,0 +1,111 @@
+body{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    font-family: "Dosis", sans-serif;
+}
+.all{
+   width: 650px;
+   height: 850px;
+   margin: 50%;
+   border: 5px solid rgba(255, 255, 255, 0.2);
+   border-radius: 70px;
+   background-color: rgba(255, 255, 255, 0.2);
+   
+}
+.number{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 120px;
+    border: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: palevioletred;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.lastrow{
+    margin-bottom: 0px;
+}
+.number:active{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(216, 112, 147, 0.4);
+}
+.input{
+    width: 644px;
+    height: 103px;
+    text-align: right;
+    font-size: 90px;
+    position: relative;
+    top: 40px;
+    right: 0px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    color:palevioletred;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+.number0{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 120px;
+    border: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: palevioletred;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.number0:active{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(216, 112, 147, 0.4);
+}
+.signc{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 120px;
+    border: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: palevioletred;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.signc:active{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(216, 112, 147, 0.4);
+}
+.sign{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 120px;
+    border: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgba(216, 112, 147, 1);
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.sign:active{
+    background-color: rgba(216, 112, 147, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
